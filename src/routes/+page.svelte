@@ -17,16 +17,21 @@
 		{ q: "Can other families on my team access the footage?", a: "Yes! Other families can join your team roster for free and get free livestream access. They can subscribe to PlayerFocus anytime to get their player's personalized highlights and features." }
 	];
 
-    // Placeholder images - youth sports themed
-    const heroImage = "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=2670&auto=format&fit=crop"; 
-    const soccerGameImage = "https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=2670&auto=format&fit=crop";
-    const playerFocusImage = "https://images.unsplash.com/photo-1606925797300-0b35e9d1794e?q=80&w=2670&auto=format&fit=crop";
-    const multiAngleImage = "https://images.unsplash.com/photo-1551958219-acbc608c6377?q=80&w=2670&auto=format&fit=crop";
-    const cameraEquipment = "https://images.unsplash.com/photo-1502982899975-c0b51b3f50b9?q=80&w=2532&auto=format&fit=crop";
-    const soccerAction = "https://images.unsplash.com/photo-1553778263-73a83bab9b0c?q=80&w=2670&auto=format&fit=crop";
-    const basketballAction = "https://images.unsplash.com/photo-1546519638-68e109498ffc?q=80&w=2670&auto=format&fit=crop";
-    const youthSoccer = "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&w=2670&auto=format&fit=crop";
-    const soccerCelebration = "https://images.unsplash.com/photo-1522778119026-d647f0596c20?q=80&w=2670&auto=format&fit=crop";
+    // Generated images - youth sports themed
+    const heroImage = "/generated/image-wide-cinematic-shot-of-youth-soccer-game-1765746777807-0.webp"; 
+    const soccerGameImage = "/generated/image-parent-filming-youth-soccer-game-from-si-1765746780748-1.webp";
+    const playerFocusImage = "/generated/image-youth-soccer-player-dribbling-ball-in-cl-1765746783165-2.webp";
+    const multiAngleImage = "/generated/image-wide-angle-view-of-youth-soccer-field-fr-1765746790673-5.webp";
+    const cameraEquipment = "/generated/image-professional-sports-camera-mounted-on-ta-1765746802915-10.webp";
+    const soccerAction = "/generated/image-youth-soccer-player-running-with-ball-dy-1765746793334-6.webp";
+    const basketballAction = "/generated/image-youth-basketball-game-action-player-drib-1765746795638-7.webp";
+    const youthSoccer = "/generated/image-young-soccer-player-kicking-ball-intense-1765746785675-3.webp";
+    const soccerCelebration = "/generated/image-youth-soccer-team-celebrating-goal-toget-1765746797975-8.webp";
+    const highlightSharing = "/generated/image-parent-and-child-watching-sports-highlig-1765746800472-9.webp";
+    const aiCamera = "/generated/image-modern-ai-camera-with-sleek-design-on-pr-1765746805527-11.webp";
+    const tripodSetup = "/generated/image-professional-16-foot-tripod-with-camera--1765746808038-12.webp";
+    const equipmentCase = "/generated/image-protective-black-equipment-case-for-came-1765746810355-13.webp";
+    const basketballPlayer = "/generated/image-youth-basketball-player-shooting-layup-i-1765746788121-4.webp";
 
 </script>
 
@@ -271,7 +276,7 @@
 
                  <!-- Card 6 -->
 				<div class="relative aspect-square rounded-3xl overflow-hidden">
-					<img src="https://images.unsplash.com/photo-1511886929837-354d827aae26?q=80&w=2670&auto=format&fit=crop" alt="Protective case" class="w-full h-full object-cover" />
+					<img src={equipmentCase} alt="Protective case" class="w-full h-full object-cover" />
 				</div>
 			</div>
 		</div>
